@@ -1,0 +1,40 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+#divParent
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#radiobutton
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+#textInput
+{
+    padding-top: 25px;
+    margin-left: -3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#buttonInput
+{
+    background-color: transparent;
+    border-radius: 25px;
+    border-color: rgb(184, 0, 184);
+    color: white;
+    width: 100px;
+    height: 50px;
+}
